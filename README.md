@@ -4,10 +4,13 @@ Dieses Projekt enthält einen OpenAI-Chatbot mit einer einfachen Gradio-Weboberf
 
 ## Setup
 
-1. Lege deinen OpenAI-API-Key in einer Umgebungsvariable `OPENAI_API_KEY` ab oder speichere ihn in einer lokalen `.env`-Datei im Projektordner.
-2. Installiere die Abhängigkeiten mit `pip install openai gradio`.
+1. Kopiere `.env.example` zu `.env` und trage dort deinen OpenAI-API-Key ein:
+   ```
+   OPENAI_API_KEY=dein_api_key
+   ```
+2. Installiere die Abhängigkeiten mit `pip install -r requirements.txt`.
 3. Starte die App mit `python main.py`.
-4. Öffne die angezeigte URL im Browser, z. B. `http://127.0.0.1:7863`.
+4. Öffne die angezeigte URL im Browser, z. B. `http://127.0.0.1:7860`.
 
 ## Funktionen
 
